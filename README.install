@@ -1,0 +1,4 @@
+sudo easy_install pip
+sudo pip install pexpect
+sudo pip install PyEmail
+sudo pip install gitpython
