@@ -1,0 +1,12 @@
+from@domain.com		#Address to send diff results from
+to@domain.com		#Address that will get the diff results
+subject				#Subject of the email
+					#Empty line. This line will be consumed by the while loop in claw.py
+host(s)				#A single host or comma-separated list (no spaces) of hosts for claw.py to connect to
+username			#username to use when connecting to host(s) listed
+password			#Looking for a way to replace this, maybe with ssh keys or something
+command(s)			#A single command or comma-separated list (no spaces) of commands to run on host(s) listed
+
+Reapeat 5-8 for different username/password combinations or different commands.
+
+There needs to be an empty line between each block, the last block should not have an empty line after it.
