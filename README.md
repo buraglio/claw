@@ -1,3 +1,6 @@
+## This is more or less dead. Go use and contribute to [oxidized](https://github.com/ytti/oxidized)
+
+
 claw is intended to be a more streamlined, purpose built reimagination of the venerable network configuration management tool RANCID. 
 
 The primary purpose of claw is to retreive and store configuration files for network hardware in a git repository. Its secondary goal is to provide notification of changes. As a value add it will remove passwords and perhaps check versions. 
